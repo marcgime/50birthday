@@ -1,5 +1,5 @@
 // --- Countdown Timer ---
-const targetDate = new Date('May 15, 2026 20:30:00').getTime();
+const targetDate = new Date('September 5, 2026 19:00:00').getTime();
 
 const countdown = setInterval(function () {
     const now = new Date().getTime();
