@@ -1,0 +1,93 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host maps.app.goo.gl:443 was resolved.
+* IPv6: (none)
+* IPv4: 142.250.185.14
+*   Trying 142.250.185.14:443...
+* schannel: disabled automatic use of client certificate
+* ALPN: curl offers http/1.1
+* ALPN: server accepted http/1.1
+* Established connection to maps.app.goo.gl (142.250.185.14 port 443) from 192.168.0.20 port 57503 
+* using HTTP/1.x
+> HEAD /R7a3gJQ8Y9Djf8HM6 HTTP/1.1
+
+> Host: maps.app.goo.gl
+
+> User-Agent: curl/8.16.0
+
+> Accept: */*
+
+> 
+
+* Request completely sent off
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* schannel: remote party requests renegotiation
+* schannel: renegotiating SSL/TLS connection
+* schannel: SSL/TLS connection renegotiated
+< HTTP/1.1 302 Found
+
+< Content-Type: application/binary
+
+< Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+
+< Pragma: no-cache
+
+< Expires: Mon, 01 Jan 1990 00:00:00 GMT
+
+< Date: Mon, 23 Feb 2026 09:30:46 GMT
+
+< Location: https://www.google.com/maps/place/Venice+Club/@41.5648651,2.0104681,17z/data=!3m2!4b1!5s0x12a492c218885f13:0x32b8df9136647468!4m6!3m5!1s0x12a492c218f57421:0xa37eb6760e13919b!8m2!3d41.5648651!4d2.0130484!16s%2Fg%2F1trzs8yy!5m1!1e1?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=dcd60019-d604-4df0-af94-aa54cd522b44
+
+< Content-Length: 0
+
+< Cross-Origin-Opener-Policy: unsafe-none
+
+< Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+
+< Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+
+< Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+
+< Content-Security-Policy: script-src 'nonce-p2qM0fTY7ZaACJU1PJ-Qgg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self'
+
+< Cross-Origin-Resource-Policy: same-site
+
+< Server: ESF
+
+< X-XSS-Protection: 0
+
+< X-Frame-Options: SAMEORIGIN
+
+< X-Content-Type-Options: nosniff
+
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+< 
+
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host maps.app.goo.gl:443 left intact
+HTTP/1.1 302 Found
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 23 Feb 2026 09:30:46 GMT
+Location: https://www.google.com/maps/place/Venice+Club/@41.5648651,2.0104681,17z/data=!3m2!4b1!5s0x12a492c218885f13:0x32b8df9136647468!4m6!3m5!1s0x12a492c218f57421:0xa37eb6760e13919b!8m2!3d41.5648651!4d2.0130484!16s%2Fg%2F1trzs8yy!5m1!1e1?entry=tts&g_ep=EgoyMDI2MDIxOC4wIPu8ASoASAFQAw%3D%3D&skid=dcd60019-d604-4df0-af94-aa54cd522b44
+Content-Length: 0
+Cross-Origin-Opener-Policy: unsafe-none
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+Content-Security-Policy: script-src 'nonce-p2qM0fTY7ZaACJU1PJ-Qgg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self'
+Cross-Origin-Resource-Policy: same-site
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

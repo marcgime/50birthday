@@ -1,63 +1,68 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¡Invitación 50 Aniversario! | Un Evento Inolvidable</title>
-    <meta name="description" content="Acompáñanos a celebrar los 50 años de una persona muy especial. Detalles del evento, carrusel de fotos y confirmación de asistencia.">
-    
+    <title>Invitació 50è Aniversari! | Un Esdeveniment Inoblidable</title>
+    <meta name="description"
+        content="Vine a celebrar els 50 anys d'una persona molt especial. Detalls de l'esdeveniment, carrusel de fotos i confirmació d'assistència.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
-    
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="overlay"></div>
         <div class="hero-content">
-            <h2 class="pre-title">Estás Invitado a Celebrar</h2>
-            <h1 class="main-title">Los 50 de [Nombre]</h1>
-            <p class="subtitle">Una noche para recordar, reír y brindar por medio siglo de vida.</p>
-            
+            <h2 class="pre-title">Estàs Convidat a Celebrar</h2>
+            <h1 class="main-title">Els 50 d'en Jaume</h1>
+            <p class="subtitle">Una nit per recordar, riure i brindar per mig segle de vida.</p>
+
             <div id="countdown" class="countdown-container">
                 <div class="time-block">
                     <span id="days">00</span>
-                    <span class="label">Días</span>
+                    <span class="label">Dies</span>
                 </div>
                 <div class="time-block">
                     <span id="hours">00</span>
-                    <span class="label">Horas</span>
+                    <span class="label">Hores</span>
                 </div>
                 <div class="time-block">
                     <span id="minutes">00</span>
-                    <span class="label">Minutos</span>
+                    <span class="label">Minuts</span>
                 </div>
                 <div class="time-block">
                     <span id="seconds">00</span>
-                    <span class="label">Segundos</span>
+                    <span class="label">Segons</span>
                 </div>
             </div>
-            
-            <a href="#rsvp" class="btn btn-primary">Confirmar Asistencia</a>
+
+            <a href="#rsvp" class="btn btn-primary">Confirmar Assistència</a>
         </div>
     </section>
 
     <!-- Photo Carousel -->
     <section class="carousel-section">
-        <h2 class="section-title">50 Años de Momentos</h2>
+        <h2 class="section-title">50 Anys de Moments</h2>
         <div class="carousel-container">
             <div class="carousel-track">
-                <div class="carousel-item"><img src="img/photo1.webp" alt="Momento 1"></div>
-                <div class="carousel-item"><img src="img/photo2.webp" alt="Momento 2"></div>
-                <div class="carousel-item"><img src="img/photo3.webp" alt="Momento 3"></div>
+                <div class="carousel-item"><img src="img/photo1.webp" alt="Moment 1"></div>
+                <div class="carousel-item"><img src="img/photo2.webp" alt="Moment 2"></div>
+                <div class="carousel-item"><img src="img/photo3.webp" alt="Moment 3"></div>
             </div>
             <button class="carousel-btn prev" id="prevBtn"><i data-lucide="chevron-left"></i></button>
             <button class="carousel-btn next" id="nextBtn"><i data-lucide="chevron-right"></i></button>
@@ -67,28 +72,37 @@
     <!-- Event Details -->
     <section class="event-details">
         <div class="container">
-            <h2 class="section-title">Detalles del Evento</h2>
+            <h2 class="section-title">Detalls de l'Esdeveniment</h2>
             <div class="details-grid">
                 <div class="detail-card">
                     <i data-lucide="calendar"></i>
-                    <h3>Fecha</h3>
-                    <p>Sábado, 15 de Mayo de 2026</p>
+                    <h3>Data</h3>
+                    <p>Dissabte, 15 de Maig de 2026</p>
                 </div>
                 <div class="detail-card">
                     <i data-lucide="clock"></i>
                     <h3>Hora</h3>
-                    <p>20:30 Horas</p>
+                    <p>20:30 Hores</p>
                 </div>
                 <div class="detail-card">
                     <i data-lucide="map-pin"></i>
-                    <h3>Lugar</h3>
-                    <p>Restaurante "El Mirador"<br>Calle Principal, 123, Barcelona</p>
+                    <h3>Lloc</h3>
+                    <p>Venice Club<br>Ctra. de Montcada, 666, 08223 Terrassa, Barcelona</p>
                 </div>
             </div>
-            
+
+            <!-- Google Maps Embed -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.828456482181!2d2.0104681!3d41.5648651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a492c218f57421%3A0xa37eb6760e13919b!2sVenice%20Club!5e0!3m2!1sca!2ses!4v1740306646789!5m2!1sca!2ses"
+                    width="100%" height="400"
+                    style="border:0; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
             <div class="calendar-actions">
                 <button id="addToCalendar" class="btn btn-secondary">
-                    <i data-lucide="calendar-plus"></i> Añadir a mi Calendario
+                    <i data-lucide="calendar-plus"></i> Afegir al meu Calendari
                 </button>
                 <div id="calendarOptions" class="calendar-options hidden">
                     <a href="#" id="googleCalendar" class="calendar-link">Google Calendar</a>
@@ -102,24 +116,21 @@
     <section id="rsvp" class="rsvp-section">
         <div class="container">
             <div class="rsvp-card">
-                <h2 class="section-title">¿Nos Acompañas?</h2>
-                <p>Por favor, confirma tu asistencia antes del 1 de Mayo.</p>
-                
-                <!-- Link to Google Form for simplicity and reliability -->
+                <h2 class="section-title">Ens Acompanyes?</h2>
+                <p>Si us plau, confirma la teva assistència abans de l'1 de Maig.</p>
+
                 <div class="rsvp-cta">
-                    <p>Para confirmar tu asistencia y alergias, completa nuestra encuesta:</p>
-                    <a href="https://forms.gle/su-link-aqui" target="_blank" class="btn btn-primary">Ir a la Encuesta</a>
+                    <p>Per confirmar la teva assistència i al·lèrgies, emplena la nostra enquesta:</p>
+                    <a href="https://forms.gle/su-link-aqui" target="_blank" class="btn btn-primary">Anar a
+                        l'Enquesta</a>
                 </div>
-                
-                <!-- Alternatively, a built-in form could be used, but since there's no backend, 
-                     a service like Formspree would be needed. For a simple invitation, Google Forms is best. -->
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>¡Te esperamos con mucha ilusión!</p>
+        <p>T'esperem amb molta il·lusió!</p>
         <div class="footer-decoration"></div>
     </footer>
 
@@ -128,4 +139,5 @@
         lucide.createIcons();
     </script>
 </body>
+
 </html>

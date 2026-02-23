@@ -1,7 +1,9 @@
 :root {
-    --primary-color: #d4af37; /* Metallic Gold */
+    --primary-color: #d4af37;
+    /* Metallic Gold */
     --primary-hover: #b8962e;
-    --secondary-color: #1a2a44; /* Deep Midnight Blue */
+    --secondary-color: #1a2a44;
+    /* Deep Midnight Blue */
     --accent-color: #f8f9fa;
     --text-color: #333;
     --text-light: #fff;
@@ -170,7 +172,7 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-track {
@@ -212,8 +214,13 @@ body {
     color: var(--text-light);
 }
 
-.prev { left: 20px; }
-.next { right: 20px; }
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
 
 /* --- Event Details --- */
 .event-details {
@@ -258,6 +265,19 @@ body {
     margin-bottom: 10px;
 }
 
+/* --- Map --- */
+.map-container {
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.map-container iframe {
+    display: block;
+}
+
 /* --- Calendar Actions --- */
 .calendar-actions {
     margin-top: 40px;
@@ -271,7 +291,7 @@ body {
     transform: translateX(-50%);
     background: white;
     border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin-top: 10px;
     z-index: 20;
@@ -309,7 +329,7 @@ body {
     border-radius: 20px;
     max-width: 600px;
     text-align: center;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
 }
 
 .rsvp-cta {
@@ -339,15 +359,15 @@ footer {
         min-width: 80px;
         padding: 15px;
     }
-    
+
     .time-block span:first-child {
         font-size: 1.8rem;
     }
-    
+
     .carousel-item img {
         height: 400px;
     }
-    
+
     .rsvp-card {
         padding: 30px;
         margin: 0 20px;
